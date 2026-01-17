@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
     display: flex;
-    justify-content: flex-end; /* Move container to the right */
+    justify-content: flex-end;
     align-items: center;
     min-height: 100vh;
     background-image: url('Top.image.png');
@@ -10,39 +10,35 @@ body {
     background-repeat: no-repeat;
     text-align: center;
     margin: 0;
-    padding-right: 10vw; /* Add space from the edge */
-    box-sizing: border-box; /* Ensure padding is calculated correctly */
-}
-
-.container {
-    /* The container's frame is removed. It's now just a logical wrapper. */
+    padding-right: 10vw;
+    box-sizing: border-box;
 }
 
 h1 {
     margin-bottom: 20px;
-    color: #333; /* Dark Gray */
-    font-size: 3rem; /* Make title bigger */
-    text-shadow: 0 1px 3px rgba(255, 255, 255, 0.7); /* Light shadow for readability */
+    color: #333;
+    font-size: 3rem;
+    text-shadow: 0 1px 3px rgba(255, 255, 255, 0.7);
 }
 
 p {
-    color: #333; /* Dark Gray */
+    color: #333;
     font-size: 1.2rem;
-    text-shadow: 0 1px 3px rgba(255, 255, 255, 0.7); /* Light shadow for readability */
+    text-shadow: 0 1px 3px rgba(255, 255, 255, 0.7);
 }
 
 .start-btn {
     display: inline-block;
     margin-top: 20px;
     padding: 12px 24px;
-    background-color: #28a745; /* Green */
+    background-color: #28a745;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow to the button too */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .start-btn:hover {
-    background-color: #218838; /* Darker Green */
+    background-color: #218838;
 }
