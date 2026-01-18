@@ -1,6 +1,6 @@
 # ToDoApp
 
-これは、HTML、CSS、JavaScriptで作成された、シンプルで直感的なToDoリストアプリケーションです。
+これは、HTML、CSS、JavaScriptで作成された、シンプルで直感的なToDo管理アプリケーションです。
 
 ## 概要
 
