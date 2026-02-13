@@ -1255,7 +1255,7 @@ function initApp() {
     const demoUser = {
         uid: 'demo-user-1',
         email: 'demo@example.com',
-        password: 'demo123',
+        password: 'demo',
         createdAt: new Date().toISOString()
     };
     appState.users.push(demoUser);
